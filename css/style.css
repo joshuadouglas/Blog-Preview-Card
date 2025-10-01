@@ -37,6 +37,7 @@ img {
 	box-shadow: 8px 8px 0 var(--grey-950);
 	padding: 24px;
 	max-width: 382px;
+	cursor: pointer;
 
 	.hero-image {
 		border-radius: 10px;
@@ -62,6 +63,11 @@ img {
 		.title {
 			font-size: 1.5rem;
 			margin-bottom: 0.875rem;
+			transition: color 0.2s ease;
+
+			&:hover {
+				color: var(--primary-color);
+			}
 		}
 
 		.excerpt {
